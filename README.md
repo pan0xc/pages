@@ -1,2 +1,2 @@
-# pages
+# My blogs
 
