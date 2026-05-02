@@ -4,7 +4,8 @@ jobs:
     runs-on: codeberg-tiny
     steps:
       - uses: actions/checkout@v4
-        submodules: true
+        with:
+          submodules: true
       - name: Setup Go
         uses: actions/setup-go@v5
         with:
