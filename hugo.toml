@@ -1,4 +1,29 @@
 baseURL = 'https://panc.codeberg.page'
-locale = 'zh-cn'
-title = 'My New Hugo Project'
+locale = 'zh-CN'
+title = "Chen Pan"
+author = "Chen Pan"
 theme = 'paper'
+
+[params]
+  color = 'gray'
+
+  avatar = 'https://panc.codeberg.page/avatar.jpg'
+  name = 'Chen Pan'
+  bio = '选择一个难到几乎无人看好的项目，带着那种“我 偏要证明给他们看”的冲劲去完成。'
+
+  favicon = "favicon.ico"
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
+    weight = 10
+
+[pagination]
+  pagerSize = 5
