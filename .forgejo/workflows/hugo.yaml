@@ -7,11 +7,12 @@ jobs:
       - name: Setup Go
         uses: actions/setup-go@v5
         with:
-          go-version: '1.25.6'
+          go-version: '1.26.2'
+          submodules: true
       - name: Setup Hugo
         uses: https://github.com/peaceiris/actions-hugo@v3
         with:
-          hugo-version: '0.154.5'
+          hugo-version: '0.159.0'
           extended: true
 
       - name: build
