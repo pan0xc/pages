@@ -4,11 +4,11 @@ jobs:
     runs-on: codeberg-tiny
     steps:
       - uses: actions/checkout@v4
+        submodules: true
       - name: Setup Go
         uses: actions/setup-go@v5
         with:
           go-version: '1.26.2'
-          submodules: true
       - name: Setup Hugo
         uses: https://github.com/peaceiris/actions-hugo@v3
         with:
