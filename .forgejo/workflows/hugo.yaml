@@ -1,0 +1,27 @@
+on: [push]
+jobs:
+  test:
+    runs-on: codeberg-tiny
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: '1.25.6'
+      - name: Setup Hugo
+        uses: https://github.com/peaceiris/actions-hugo@v3
+        with:
+          hugo-version: '0.154.5'
+          extended: true
+
+      - name: build
+        run: hugo --minify
+      - uses: actions/git-pages@v2
+        with:
+          # This workflow will only work correctly in https://codeberg.org/username/reponame.git !
+          # Adjust the site name to match your username and repository name.
+          # To publish to the index site, https://username.codeberg.page/, name your repository
+          # either `username.codeberg.page` or `pages`.
+          site: "PUT THE URL HERE"
+          token: ${{ forge.token }}
+          source: public/
