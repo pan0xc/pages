@@ -18,10 +18,6 @@ jobs:
         run: hugo --minify
       - uses: actions/git-pages@v2
         with:
-          # This workflow will only work correctly in https://codeberg.org/username/reponame.git !
-          # Adjust the site name to match your username and repository name.
-          # To publish to the index site, https://username.codeberg.page/, name your repository
-          # either `username.codeberg.page` or `pages`.
-          site: "PUT THE URL HERE"
+          site: "panc.codeberg.page"
           token: ${{ forge.token }}
           source: public/
