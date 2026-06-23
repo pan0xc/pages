@@ -17,7 +17,9 @@ jobs:
           extended: true
 
       - name: build
-        run: hugo --minify
+        run: |
+          hugo --minify
+          cp .domains public/.domains
       - uses: actions/git-pages@v2
         with:
           site: "https://panc.codeberg.page"
