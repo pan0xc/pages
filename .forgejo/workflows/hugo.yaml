@@ -20,6 +20,6 @@ jobs:
         run: hugo --minify
       - uses: actions/git-pages@v2
         with:
-          site: "https://blog.chenpan.me"
+          site: "https://panc.codeberg.page"
           token: ${{ forge.token }}
           source: public/
