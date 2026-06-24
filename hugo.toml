@@ -1,4 +1,4 @@
-baseURL = 'https://blog.chenpan.me'
+baseURL = 'https://panc.codeberg.page'
 locale = 'zh-CN'
 title = "Chen Pan"
 author = "Chen Pan"
