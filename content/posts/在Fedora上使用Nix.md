@@ -1,10 +1,8 @@
 +++
 date = '2026-06-23T23:29:55+08:00'
 draft = false
-title = 'Nix'
+title = '在 Fedora 上使用 Nix'
 +++
-
-# 在 fedora 上使用 Nix
 
 ## 介绍
 [Nix](https://nixos.org/) 是一个在软件包管理和系统配置方面采用独特方法的工具。官方生成使用 Nix 可以构建可重复、可声明式且可靠的系统。
