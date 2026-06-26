@@ -7,7 +7,7 @@ theme = 'paper'
 [params.author]
 email = 'pan0xc@foxmail.com'
 name = 'Chen Pan'
-avatar = 'https://panc.codeberg.page/avatar.jpg'
+avatar = 'https://blog.chenpan.me/avatar.svg'
 bio = '选择一个难到几乎无人看好的项目，带着那种“我 偏要证明给他们看”的冲劲去完成。'
 
 favicon = "favicon.ico"
