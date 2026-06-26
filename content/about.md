@@ -4,8 +4,6 @@ draft = false
 title = 'About'
 +++
 
-# Chen Pan
-
 China
 
 Glad to see you here :-)

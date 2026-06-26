@@ -1,29 +1,34 @@
 baseURL = 'https://panc.codeberg.page'
 locale = 'zh-CN'
-title = "Chen Pan"
-author = "Chen Pan"
+title = "panc"
 theme = 'paper'
 
 [params]
-  color = 'gray'
+[params.author]
+email = 'pan0xc@foxmail.com'
+name = 'Chen Pan'
+avatar = 'https://panc.codeberg.page/avatar.jpg'
+bio = '选择一个难到几乎无人看好的项目，带着那种“我 偏要证明给他们看”的冲劲去完成。'
 
-  avatar = 'https://panc.codeberg.page/avatar.jpg'
-  name = 'Chen Pan'
-  bio = '选择一个难到几乎无人看好的项目，带着那种“我 偏要证明给他们看”的冲劲去完成。'
-
-  favicon = "favicon.ico"
+favicon = "favicon.ico"
 
 [menu]
-  [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about/"
-    weight = 10
-  [[menu.main]]
-    identifier = "contact"
-    name = "Contact"
-    url = "/contact/"
-    weight = 10
+[[menu.main]]
+identifier = "about"
+name = "About"
+pageRef = "/about"
+weight = 1
+[[menu.main]]
+identifier = "contact"
+name = "Contact"
+pageRef = "/contact"
+weight = 2
 
 [pagination]
-  pagerSize = 5
+pagerSize = 5
+
+[markup]
+[markup.highlight]
+style = "tokyonight-night"
+lineNos = true
+lineNumbersInTable = false
