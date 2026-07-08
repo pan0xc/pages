@@ -1,7 +1,7 @@
 baseURL = 'https://panc.codeberg.page'
 locale = 'zh-CN'
 title = "panC···"
-theme = 'paper'
+theme = 'paper-lite'
 
 [params]
 [params.author]

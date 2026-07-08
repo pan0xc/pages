@@ -5,9 +5,13 @@ title = '在 Fedora 上使用 Nix'
 +++
 
 ## 介绍
-[Nix](https://nixos.org/) 是一个在软件包管理和系统配置方面采用独特方法的工具。官方生成使用 Nix 可以构建可重复、可声明式且可靠的系统。
+
+[Nix](https://nixos.org/) 是一个在软件包管理和系统配置方面采用独特方法的工具。官方声称使用 Nix 可以构建可重复、可声明式且可靠的系统。
+
+Nix 虽然很好，但是我是忠实的 Fedora 用户，是不可以沉迷 Nix的，沉迷时候的后果非常严重。
 
 ## 安装
+
 在 Fedora 上安装 Nix 上安装很容易，我这里不使用 Nix 官网提供的脚本进行安装，而是直接使用 Fedora 的包管理器进行安装，执行以下命令即可安装然后立即启动：
 ``` sh
 sudo dnf install nix nix-daemon
@@ -18,3 +22,8 @@ sudo systemctl enable --now nix-daemon
 panc@fedora ~> nix --version
 nix (Nix) 2.34.7
 ```
+如果你的输出和我的类似，那么先恭喜你踏入了 Nix 世界的第一步。
+
+## 使用
+
+WIP
