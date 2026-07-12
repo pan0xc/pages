@@ -9,6 +9,15 @@ email = 'pan0xc@foxmail.com'
 name = 'Chen Pan'
 avatar = 'https://blog.chenpan.me/avatar.svg'
 bio = '选择一个难到几乎无人看好的项目，带着那种“我 偏要证明给他们看”的冲劲去完成。'
+github = "pan0xc"
+codeberg = "panc"
+[params.repo]
+url = "https://codeberg.org/panc/pages"
+branch = "main"
+editPath = "_edit"  # codeberg is _edit, github is edit
+[params.article]
+showEditLink = true
+showAuthorLinks = true
 
 [menu]
 [[menu.main]]
@@ -17,10 +26,15 @@ name = "About"
 pageRef = "/about"
 weight = 1
 [[menu.main]]
-identifier = "contact"
-name = "Contact"
-pageRef = "/contact"
+identifier = "links"
+name = "Links"
+pageRef = "/links"
 weight = 2
+[[menu.main]]
+identifier = "blogroll"
+name = "Blogroll"
+pageRef = "/blogroll"
+weight = 3
 
 [pagination]
 pagerSize = 5
@@ -30,3 +44,9 @@ pagerSize = 5
 style = "tokyonight-night"
 lineNos = true
 lineNumbersInTable = false
+
+[permalinks]
+posts = "/:year/:month/:day/:slug"
+
+[taxonomies]
+category = "categories"
