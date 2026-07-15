@@ -5,8 +5,8 @@ draft = false
 
 ## Hello! / 你好！
 
-![panic](/avatar.svg "panic")
-I am Chen Pan(潘辰), a programmer. You can find me on GitHub or send me an email.
+{{< floatimg src="/avatar.svg" />}}
+I am Chen Pan(潘辰), a programmer. You can find me on [Codeberg](https://codeberg.org/panc)/[GitHub](https://github.com/pan0xc) or send me an [email](mailto:pan0xc@foxmail.com).
 
 China / 中国
 
