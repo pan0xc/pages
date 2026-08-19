@@ -15,3 +15,7 @@ hugo
 /.hugo_build.lock
 
 .direnv/
+
+node_modules/
+
+data/blogroll.*

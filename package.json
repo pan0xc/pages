@@ -1,0 +1,19 @@
+{
+  "name": "blogs",
+  "scripts": {
+    "feed": "node blogroll.ts"
+  },
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "^11.8.0",
+      "onFail": "download"
+    }
+  },
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^26.2.0",
+    "rss-parser": "^3.13.0",
+    "typescript": "^7.0.2"
+  }
+}
