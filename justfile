@@ -1,0 +1,14 @@
+new title:
+    hugo new "content/posts/$(date +%Y-%m-%d)-{{ title }}.md"
+
+dev:
+    hugo server --buildDrafts --buildFuture --navigateToChanged
+
+build:
+    hugo --minify
+
+build-all:
+    hugo --buildDrafts --buildFuture --minify
+
+clean:
+    rm -rf public
