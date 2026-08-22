@@ -1,2 +1,5 @@
-https://matklad.github.io/feed.xml
 https://andrewkelley.me/rss.xml
+https://blog.codingnow.com/atom.xml
+https://matklad.github.io/feed.xml
+http://www.ruanyifeng.com/blog/atom.xml
+https://thisweek.gnome.org/index.xml
