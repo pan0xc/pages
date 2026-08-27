@@ -41,9 +41,14 @@ pagerSize = 5
 
 [markup]
 [markup.highlight]
-style = "tokyonight-night"
+style = "onedark"
 lineNos = true
 lineNumbersInTable = false
+[markup.goldmark]
+[markup.goldmark.parser]
+wrapStandAloneImageWithinParagraph = false
+[markup.goldmark.parser.attribute]
+block = true
 
 [permalinks]
 posts = "/:year/:month/:day/:slug"
