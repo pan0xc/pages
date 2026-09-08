@@ -9,3 +9,6 @@ authors = [
 
 matklad
 : https://matklad.github.io/
+
+fast-time-of-day
+: https://www.benjoffe.com/fast-time-of-day
