@@ -4,6 +4,7 @@ title = "panic"
 theme = 'paper-lite'
 
 [params]
+description = "panic's blog"
 [params.author]
 email = 'pan0xc@foxmail.com'
 name = 'Chen Pan'

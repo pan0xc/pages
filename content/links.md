@@ -1,11 +1,16 @@
 +++
 date = '2026-07-12T13:15:16+08:00'
 draft = false
-title = 'Some useful links!'
+title = 'links'
+description = "panic's blog"
 authors = [
   "Chen Pan",
 ]
 +++
+
+## 友链
+
+## 书签
 
 matklad
 : https://matklad.github.io/
