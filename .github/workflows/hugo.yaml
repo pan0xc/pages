@@ -60,13 +60,13 @@ jobs:
           node-version: 24
           cache: pnpm
 
-      - name: Install dependencies
+      - name: Install RSS dependencies
         working-directory: themes/paper-lite
-        run: pnpm install --frozen-lockfile --filter "rss-parser"
+        run: pnpm install --frozen-lockfile --filter paper-lite-rss
 
       - name: Generate blogroll data
         working-directory: themes/paper-lite
-        run: pnpm feed
+        run: pnpm --filter paper-lite-rss feed
 
       - name: Build Hugo
         env:
